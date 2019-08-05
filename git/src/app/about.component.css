@@ -1,0 +1,17 @@
+
+ .header{
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("C:\Angular6Demos\CAT\src\assets\online-shopping.jpg");
+background-position: center;
+background-size: cover;
+display:flex;
+justify-content: center;
+align-items: center;
+ }
+ p{
+    text-align:justify;
+    text-decoration-color: azure;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }

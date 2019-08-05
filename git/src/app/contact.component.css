@@ -1,0 +1,22 @@
+h4{
+    color:whitesmoke;
+    font-style: italic;
+    font-size: 50px;
+}
+h5{
+    color:whitesmoke;
+    font-style: italic;
+    font-size: 50px;
+}
+h3{
+    color: whitesmoke;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("C:\Angular6Demos\CAT\src\assets\online-shopping.jpg");
+    background-position: center;
+    align-items: center;
+    font-family: sans-serif;
+}
