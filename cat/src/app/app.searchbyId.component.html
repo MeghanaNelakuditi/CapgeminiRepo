@@ -1,0 +1,19 @@
+<h1>Search by id</h1>
+empId: <br> <input type="text" [(ngModel)]="model.empId"  ><br>
+
+  <input type="button" value="search Employee" (click)="searchEmployee(model.empId)"/>
+
+  <table border="1">
+    <tr>
+      <th>empid</th>
+      <th>name</th>
+      <th>salary</th>
+    </tr>
+    <tr >
+        <th>{{model.empId}}</th>
+        <th>{{model.name}}</th>
+        <th>{{model.salary}}</th>
+      
+  
+    </tr>
+  </table>
