@@ -1,0 +1,29 @@
+<div class="container">
+    <h2><b>Search Form</b></h2>
+    <input type="text" [(ngModel)]="search" /> &nbsp;&nbsp;&nbsp;
+    <button name="btn btn-primary" (click)="searchForm()">Search</button>
+    <br/>
+    <h4><b>Product List</b></h4>
+    <div >
+           
+    <table border="2">
+        <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                
+        </tr>
+       
+        <tr *ngFor="let product of products | productList:search" >
+            
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.category}}</td>
+        </tr>
+    
+        </table>
+    
+</div>
+</div>
