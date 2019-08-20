@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.employee.EmployeeManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.026 s - in com.cg.employee.EmployeeManagementApplicationTests
